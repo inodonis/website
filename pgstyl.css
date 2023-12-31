@@ -1,0 +1,468 @@
+header {
+  background-color: green; 
+  padding: 20px 0;
+  text-align: center;
+}
+.logo img{
+  width: 8%;  
+  height:fit-content; 
+  border-style:double;
+  border-color:white;
+}
+.logo a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  height: 10px;
+  width: 10px;
+
+}
+
+body  {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+nav ul li {
+  display:inline-flex;
+  margin-right: 20px;
+}
+
+nav ul li a {
+
+  text-decoration: none; 
+  padding: 10px 15px;
+  background-color: darkgreen;
+  color: white; 
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+}
+
+nav a:hover {
+  background-color: green; 
+}
+
+
+
+
+
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: gray;
+}
+footer {
+  background-color: green;
+  color: lightgray;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-info, .social-media, .legal-links {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.contact-info h3, .social-media h3, .legal-links h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  margin-right: 10px;
+}
+
+.social-media img {
+  width: 30px;  
+  height: auto; 
+  margin-right: 10px; 
+}
+.copyright {
+  background-color: darkgreen;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.copyright p {
+  margin: 0;
+}
+
+.legal-links a {
+  color: white;
+}
+
+.price-ticker {
+  padding: 10px;
+  background-color: darkgreen;
+  margin-top: 1.5%;
+}
+.price {
+  color: yellow; 
+}
+.item {
+  color:white; 
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us-section {
+    margin-bottom: 30px;
+}
+
+.commitment-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.commitment-item {
+  flex:10%; 
+  background-color: white; 
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px darkgreen;
+  transition: transform 0.3s ease-in-out;  
+}
+.commitment-item:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 10px lightgreen; 
+}
+.commitment-item strong {
+  display: block;
+  color: green; 
+  margin-bottom: 10px;
+}
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.team-member {
+  flex: 0 0 calc(33.333% - 20px); 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 50%; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  color: green; 
+}
+
+.team-member p {
+  color: gray; 
+}
+.homepagetext p, .homepagetext h2 {
+  margin-left: 1.5cm; 
+  margin-right: 1.5cm; 
+}
+.intro {
+  text-align: center;
+  background-color: lightgray;
+  padding: 50px 0;
+  color: green;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+}
+
+.intro p {
+  font-size: 1.2em;
+}
+
+
+.about-us {
+  padding: 30px 0;
+  background-color: lightgray;
+  color: gray;
+}
+
+
+.mission {
+  padding: 30px 0;
+  background-color: lightgray;
+  color: green;
+}
+
+.bannerimg img{
+  max-width:100%;
+}
+
+.products {
+  padding: 30px 0;
+  background-color: lightgray;
+  color: gray;
+}
+.products img {
+ width:18%;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.product-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.product-item img {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.testimonies-impact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonies,
+.impact {
+  flex: 0 0 calc(50% - 10px);
+  padding: 30px;
+  background-color: lightgray;
+  color: gray;
+}
+
+/* Partners Section */
+.partners {
+  padding: 30px 0;
+  background-color: lightgray;
+  color: gray;
+}
+
+.product-category {
+  padding: 40px 0;
+}
+.product-category h2 {
+  padding: 40px 0;
+  background-color: lightgray;
+  text-align: center;
+  color: green;
+}
+
+.product-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover {
+  transform: scale(1.1);
+}
+
+.product-item img {
+  max-width: 100%;
+  height:50%;
+  display: block;
+}
+
+.add-to-cart {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  background-color:green;
+  color: lightgray;
+  border: none;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+.blog-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.blog-content img{
+  max-width: 100%;
+}
+
+.blog-post {
+  margin-bottom: 40px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+
+.post-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.post-excerpt {
+  margin-bottom: 20px;
+}
+
+.read-more {
+  color: green;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid green;
+  padding-bottom: 2px;
+}
+
+.read-more:hover {
+  background-color: lightgray;
+}
+.privacy-terms-content, .partners-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+.partner-section {
+  padding: 2rem;
+  border-bottom: 1px solid lightgray;
+  justify-items: center;
+  justify-items: center;
+
+}
+
+.partner-list {
+  display:inline-flex;
+  justify-content: center;
+
+}
+
+.partner-item {
+  margin: 1rem;
+  text-align: center;
+
+}
+
+.partner-item img {
+  max-width: 100%;
+
+}
+
+.impact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.impact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.impact-list li {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+}
+
+.impact-list h2 {
+  margin-top: 0;
+}
+.testimonials-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.testimonial {
+  margin-bottom: 2rem;
+  border-left: 4px solid lightgreen;
+  padding-left: 1rem;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+.testimonial cite {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.faq-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+}
+
+.faq-item h2 {
+  margin-top: 0;
+}
+.contact-us-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-info, .contact-form {
+  margin-bottom: 2rem;
+
+}
+
+.contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form button {
+  background-color: lightgreen;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: lightgreen;
+}
